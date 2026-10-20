@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-deep: #0B0910;
+    --bg-surface: #140F20;
+    --bg-card: #1A1429;
+    --border-subtle: #2B2144;
+    --gold-primary: #D4AF37;
+    --gold-bright: #F5C542;
+    --violet-accent: #8B5CF6;
+    --violet-deep: #5B21B6;
+  }
+
+  body {
+    background-color: var(--bg-deep);
+    color: #E2DCDE;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-reading {
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* Custom monastic dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0910;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2348;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4C3B78;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Cânone Pali · Tipiṭaka Offline",
+  "description": "Estudo interativo e imersivo dos Três Cestos do Budismo Theravāda (Vinaya, Sutta e Abhidhamma) em Português com base no Acesso ao Insight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
